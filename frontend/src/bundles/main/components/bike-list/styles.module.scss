@@ -8,3 +8,10 @@
   overflow-y: auto;
   border-right: 1px solid var(--grey-3);
 }
+
+@media screen and (width <= 850px) {
+  .list {
+    width: 100%;
+    border: none;
+  }
+}

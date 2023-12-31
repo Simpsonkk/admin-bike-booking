@@ -16,3 +16,9 @@
 .developer {
   color: var(--grey-2);
 }
+
+@media screen and (width <= 400px) {
+  .footer {
+    justify-content: center;
+  }
+}

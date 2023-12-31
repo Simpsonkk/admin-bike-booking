@@ -68,3 +68,13 @@
   background-color: var(--white-3);
   border-color: var(--red-2);
 }
+
+@media screen and (width <= 480px) {
+  .bikeInfo {
+    font-size: var(--font-size-smallest);
+  }
+
+  .bikePrice {
+    font-size: var(--font-size-xss);
+  }
+}
