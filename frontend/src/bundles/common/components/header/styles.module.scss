@@ -1,0 +1,28 @@
+.title {
+  color: var(--white-1);
+  font-size: var(--font-size-md);
+  font-family: var(--font-family-secondary);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--yellow-1);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  padding: 4px 16px;
+  background-color: var(--grey-1);
+}
+
+@media screen and (width <= 350px) {
+  .title {
+    font-size: var(--font-size-base-sm);
+  }
+
+  .header {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 26px;
+  padding: 4px 22px;
+  color: var(--white-2);
+  background: var(--grey-1);
+  border: 1px solid var(--black-1);
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 var(--black-2);
+}
+
+.button:hover {
+  transform: scale(1.02);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:disabled {
+  cursor: auto;
+  transform: scale(1);
+  opacity: 0.5;
+}

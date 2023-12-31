@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 42px;
+  margin-top: auto;
+  padding: 10px;
+  background-color: var(--grey-1);
+}
+
+.author {
+  color: var(--white-2);
+  font-size: var(--font-size-sm);
+}
+
+.developer {
+  color: var(--grey-2);
+}

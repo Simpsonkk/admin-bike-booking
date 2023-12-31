@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.title {
+  color: var(--black-1);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-base-sm);
+}
+
+.bikeInfo {
+  color: var(--black-1);
+}
+
+.boldText {
+  font-weight: var(--font-weight-bold);
+}

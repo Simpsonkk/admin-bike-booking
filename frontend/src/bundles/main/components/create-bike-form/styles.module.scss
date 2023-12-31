@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--grey-3);
+}
+
+.inputGroup {
+  display: flex;
+  flex-basis: calc(50% - 5px);
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 11px;
+  width: 100%
+}

@@ -1,0 +1,59 @@
+:root {
+  // Colors
+
+  // White
+  --white-1: #e8e8e8;
+  --white-2: #ffffff;
+  --white-3: #e8e8e887;
+
+  // Grey
+  --grey-1: #696969;
+  --grey-2: #cbcaca;
+  --grey-3: #c4c4c4;
+  --grey-4: #717171;
+  --grey-5: #333333;
+
+  // Black
+  --black-1: #000000;
+  --black-2: rgb(0 0 0 / 25%);
+
+  // Red
+  --red-1: red;
+  --red-2: #f7060673;
+
+  // Yellow
+  --yellow-1: rgb(255 255 0 / 73.7%);
+
+  // Green
+  --green-1: #6FCF97;
+
+  // Orange
+  --orange-1: #F2994A;
+
+  // Fonts
+
+  // Font family
+  --font-family-primary: "Saira", sans-serif;
+  --font-family-secondary: "Saira Stencil One", sans-serif;
+
+  // Font sizes
+  --font-size-smallest: 8px;
+  --font-size-xss: 12px;
+  --font-size-xs: 14px;
+  --font-size-base-xs: 15px;
+  --font-size-base: 16px;
+  --font-size-base-sm: 18px;
+  --font-size-sm: 20px;
+  --font-size-md: 24px;
+  --font-size-base-md: 28px;
+  --font-size-ml: 30px;
+  --font-size-l: 32px;
+  --font-size-lg: 34px;
+  --font-size-xl: 48px;
+  --font-size-xxl: 60px;
+  --font-size-xxxl: 96px;
+
+  // Font weight
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
