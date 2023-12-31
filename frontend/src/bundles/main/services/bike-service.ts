@@ -25,7 +25,7 @@ export const BikeService = {
     await api.post(BikeApiPath.Root, bike);
   },
 
-  async getStatistics() {
+  async getStatistics(): Promise<BikeStatistics> {
     const { data } = await api.get<BikeStatistics>(BikeApiPath.Statistics);
     return data;
   },
